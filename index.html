@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>O'YINZOR</title>
+    <link rel="icon" href="games-icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="intro">
+        <h1 class="glitch" data-t="O'YINZOR">O'YINZOR</h1>
+        <div class="load"><i></i></div>
+        <p>Yuklanmoqda...</p>
+    </div>
+    <div id="bar"></div>
+    <header><a class="logo" href="#">O'YIN<b>ZOR</b></a>
+        <nav><a href="#oyna">O'ynash</a><a href="#dokon">Do'kon</a><a href="#reyting">Reyting</a><a
+                href="#savol">Savollar</a></nav>
+        <div class="hb"><button id="theme">Yorug'</button><button id="cartBtn" class="btn">Savat <em
+                    id="count">0</em></button></div>
+    </header>
+    <section class="hero">
+        <div class="ht">
+            <p class="tag">Yuklab olish shart emas</p>
+            <h1>O'yna.<br><span>Yut.</span><br>Takrorla.</h1>
+            <p class="mut">Brauzeringizda bevosita ishlaydigan mini-o'yinlar. Do'stlaringiz bilan bellashing, rekord
+                o'rnating va sovrinlar yuting.</p>
+            <div class="row"><a class="btn" href="#oyna">Hozir o'ynash</a><a class="ghost" href="#dokon">Do'konga
+                    o'tish</a></div>
+            <div class="stats">
+                <div><b data-n="120">0</b><small>O'yinlar</small></div>
+                <div><b data-n="45">0</b><small>Ming o'yinchi</small></div>
+                <div><b data-n="24">0</b><small>Turnirlar</small></div>
+            </div>
+        </div>
+        <div class="hi"><img id="slide" src="img/hero.jpg" alt="O'yin">
+            <div class="chip">Onlayn: <b id="online">1 204</b></div>
+        </div>
+    </section>
+    <div class="ticker">
+        <div><span>X-O · Tezkor bosish · Raqamni top · Shaxmat · Poyga · Kosmos · Boshqotirma · Arkada
+                ·&nbsp;</span><span>X-O · Tezkor bosish · Raqamni top · Shaxmat · Poyga · Kosmos · Boshqotirma · Arkada
+                ·&nbsp;</span></div>
+    </div>
+    <section id="oyna" class="r">
+        <p class="tag">Mini-o'yinlar</p>
+        <h2>Hoziroq o'ynab ko'ring</h2>
+        <div class="games">
+            <div class="gm">
+                <h3>X-O</h3>
+                <p class="mut">Kompyuterga qarshi o'ynang.</p>
+                <div id="xo"></div>
+                <p id="xoMsg">Sizning navbatingiz (X)</p><button class="ghost" id="xoNew">Qaytadan</button>
+            </div>
+            <div class="gm">
+                <h3>Tezkor bosish</h3>
+                <p class="mut">10 soniyada necha marta bosasiz?</p><button id="tap" class="big">Boshlash</button>
+                <p id="tapMsg">Rekord: <b id="best">0</b></p>
+            </div>
+            <div class="gm">
+                <h3>Raqamni top</h3>
+                <p class="mut">1 dan 100 gacha raqam o'yladim.</p><input id="guess" type="number"
+                    placeholder="Raqam kiriting"><button class="btn" id="gBtn">Tekshirish</button>
+                <p id="gMsg">Urinishlar: 0</p>
+            </div>
+        </div>
+    </section>
+    <section id="dokon" class="r">
+        <div class="head">
+            <div>
+                <p class="tag">Do'kon</p>
+                <h2>O'yin to'plamlari</h2>
+            </div>
+            <div id="tabs"></div>
+        </div>
+        <div id="grid"></div>
+    </section>
+    <section class="banner r"><img src="img/g5.jpg" alt="">
+        <div>
+            <p class="tag">Yangi</p>
+            <h2>Haftalik turnir — 5 000 000 so'm sovrin</h2>
+            <p class="mut">Har shanba 20:00 da. Ro'yxatdan o'ting va eng yaxshi o'yinchilar qatoriga kiring.</p><a
+                class="btn" href="#dokon">Qatnashish</a>
+        </div>
+    </section>
+    <section id="reyting" class="r">
+        <p class="tag">Reyting</p>
+        <h2>Eng yaxshi o'yinchilar</h2>
+        <ol class="lead">
+            <li><b>Shohjahon</b><span>98 450</span></li>
+            <li><b>Madina</b><span>92 300</span></li>
+            <li><b>Bekzod</b><span>88 120</span></li>
+            <li><b>Dilnoza</b><span>81 760</span></li>
+            <li><b>Sardor</b><span>79 040</span></li>
+        </ol>
+    </section>
+    <section class="feat r">
+        <div><img src="img/g1.jpg" alt="">
+            <h3>Tez yuklanish</h3>
+            <p>Har bir o'yin bir soniyada ochiladi.</p>
+        </div>
+        <div><img src="img/g4.jpg" alt="">
+            <h3>Bepul o'yinlar</h3>
+            <p>Ko'plab o'yinlar mutlaqo bepul.</p>
+        </div>
+        <div><img src="img/g3.jpg" alt="">
+            <h3>Telefonda ham</h3>
+            <p>Har qanday qurilmada qulay ishlaydi.</p>
+        </div>
+    </section>
+    <section class="rev r">
+        <p class="tag">Fikrlar</p>
+        <p id="quote">"Tanaffusda o'ynash uchun eng zo'r sayt!"</p><b id="who">— Aziz, Toshkent</b>
+    </section>
+    <section id="savol" class="r">
+        <p class="tag">Savollar</p>
+        <h2>Ko'p so'raladigan savollar</h2>
+        <div class="faq">
+            <details>
+                <summary>O'yinlar bepulmi?</summary>
+                <p>Ha, asosiy mini-o'yinlar bepul. Premium to'plamlar do'konda sotiladi.</p>
+            </details>
+            <details>
+                <summary>Ro'yxatdan o'tish kerakmi?</summary>
+                <p>Yo'q, darhol o'ynashingiz mumkin.</p>
+            </details>
+            <details>
+                <summary>To'lov qanday amalga oshiriladi?</summary>
+                <p>Click, Payme yoki Uzcard orqali.</p>
+            </details>
+            <details>
+                <summary>Telefonda ishlaydimi?</summary>
+                <p>Ha, barcha o'yinlar mobil qurilmalarga moslangan.</p>
+            </details>
+        </div>
+    </section>
+    <section class="sub r">
+        <h2>Yangi o'yinlardan birinchi bo'lib xabardor bo'ling</h2>
+        <form id="subF"><input type="email" placeholder="Email manzilingiz" required><button class="btn">Obuna
+                bo'lish</button></form>
+    </section>
+    <footer>
+        <div class="fc">
+            <div><a class="logo" href="#">O'YIN<b>ZOR</b></a>
+                <p class="mut">Brauzerdagi eng qiziqarli mini-o'yinlar maskani. 2026-yildan beri.</p>
+            </div>
+            <div>
+                <h4>Bo'limlar</h4><a href="#oyna">O'ynash</a><a href="#dokon">Do'kon</a><a href="#reyting">Reyting</a><a
+                    href="#savol">Savollar</a>
+            </div>
+            <div>
+                <h4>Aloqa</h4>
+                <p>Namangan, Uychi ko'chasi 18</p>
+                <p>+998 50 030 54 50</p>
+                <p>Mamadjonov Hikmatillo.uz</p>
+            </div>
+            <div>
+                <h4>Ish vaqti</h4>
+                <p>Serverlar 24/7 ishlaydi</p>
+                <p>Yordam: 09:00 — 22:00</p>
+            </div>
+        </div>
+        <div class="fimg"><img src="img/g1.jpg" alt=""><img src="img/g2.jpg" alt=""><img src="img/g3.jpg" alt=""><img
+                src="img/g4.jpg" alt=""><img src="img/g5.jpg" alt=""><img src="img/g6.jpg" alt=""></div>
+        <div class="fb">© 2026 O'YINZOR · Barcha huquqlar himoyalangan</div>
+    </footer>
+    <div id="veil"></div>
+    <div id="toast"></div>
+    <aside id="cart">
+        <div class="ch">
+            <h3>Savat</h3><button id="close">🔙</button>
+        </div>
+        <ul id="items"></ul>
+        <div class="tot">Jami: <b id="sum">0 so'm</b></div><button class="btn" id="buy">Sotib olish</button>
+    </aside>
+    <script src="app.js"></script>
+</body>
+
+</html>
